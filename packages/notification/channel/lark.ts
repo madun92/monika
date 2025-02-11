@@ -101,7 +101,7 @@ function getContent(
         content: {
           post: {
             en_us: {
-              title: 'Monika Notification',
+              title: `New ${notificationType} from Monika\n`,
               content: [
                 [
                   {
@@ -127,7 +127,7 @@ function getContent(
         content: {
           post: {
             en_us: {
-              title: 'Monika Notification',
+              title: `New ${notificationType} ${url} from Monika\n`,
               content: [
                 [
                   {
@@ -219,7 +219,7 @@ function getContent(
         content: {
           post: {
             en_us: {
-              title: 'Monika Notification',
+              title: `New ${notificationType} from Monika\n`,
               content: [
                 [
                   {
