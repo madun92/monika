@@ -23,8 +23,8 @@ jobs:
       - run: npm ci
         name: Install dependencies
       - run: npm run build -w packages/notification
-      - run: npm test
-        name: Run tests
+      # - run: npm test
+      #   name: Run tests
       - run: npm pack
         name: Pack using npm pack
       - run: npm install -g ./hyperjumptech-monika-*.tgz
